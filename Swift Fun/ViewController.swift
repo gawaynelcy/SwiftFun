@@ -5,7 +5,7 @@
 //  Created by Lau Chin Wei on 14/12/2017.
 //  Copyright © 2017 Yun. All rights reserved.
 //  Testing the Git
-//
+//  Testing the push
 
 import UIKit
 
@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         if buttonCount == 15 {
             view.backgroundColor = UIColor.blue
             myLabel.text = "BACK OFF!!!"
+        }
+        if buttonCount == 16 {
+            view.backgroundColor = UIColor.gray
+            myLabel.text = "Look at yourself!!!"
         }
 
         
