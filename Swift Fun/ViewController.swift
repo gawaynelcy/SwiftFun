@@ -13,11 +13,15 @@ class ViewController: UIViewController {
 
     var buttonCount = 0
     @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var topTextField: UITextField!
+    @IBOutlet weak var bottomTextField: UITextField!
     
     @IBAction func myButton(_ sender: Any) {
         
-        
-        
+        print(topTextField.text!)
+        print(bottomTextField.text!)
+
+/*
         buttonCount += 1
         print(buttonCount)
 
@@ -46,7 +50,8 @@ class ViewController: UIViewController {
             myLabel.text = "Look at yourself!!!"
         }
 
-        
+ */
+
     }
     
     override func viewDidLoad() {
