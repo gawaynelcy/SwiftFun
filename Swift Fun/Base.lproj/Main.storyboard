@@ -49,6 +49,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6l7-ft-9QT">
+                                <rect key="frame" x="183" y="267" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -56,7 +59,9 @@
                             <constraint firstItem="LKc-fB-Ih4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="3G5-TP-aFQ"/>
                             <constraint firstItem="XYL-pJ-lrl" firstAttribute="top" secondItem="LKc-fB-Ih4" secondAttribute="bottom" constant="70" id="BCW-L5-nnK"/>
                             <constraint firstItem="GjS-0r-8VG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BRw-f9-oew"/>
+                            <constraint firstItem="6l7-ft-9QT" firstAttribute="top" secondItem="KDh-84-BcN" secondAttribute="bottom" constant="31" id="Qsy-id-0fF"/>
                             <constraint firstItem="KDh-84-BcN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vwv-B4-rVU"/>
+                            <constraint firstItem="6l7-ft-9QT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ymu-ea-LV4"/>
                             <constraint firstItem="XYL-pJ-lrl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aB9-8e-moq"/>
                             <constraint firstItem="GjS-0r-8VG" firstAttribute="top" secondItem="LKc-fB-Ih4" secondAttribute="bottom" constant="23" id="ict-hV-DW0"/>
                             <constraint firstItem="LKc-fB-Ih4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kb9-LT-uIZ"/>
@@ -65,6 +70,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="additionSwitch" destination="6l7-ft-9QT" id="et6-Ix-v7M"/>
                         <outlet property="bottomTextField" destination="KDh-84-BcN" id="8mI-af-LgQ"/>
                         <outlet property="myLabel" destination="LKc-fB-Ih4" id="91S-UD-Cje"/>
                         <outlet property="topTextField" destination="XYL-pJ-lrl" id="jxZ-iI-uwM"/>
